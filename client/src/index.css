@@ -3,11 +3,40 @@
 
 @layer base {
   body {
-    @apply bg-white text-[#0D0D0D] transition-colors duration-300;
+    @apply bg-white text-black transition-colors duration-300;
   }
 
   .dark body {
-    @apply bg-[#0D0D0D] text-slate-100 ;
+    @apply bg-black text-slate-100 ;
   }
 }
 
+
+
+@theme inline {
+  --animate-cell-ripple: cell-ripple var(--duration, 200ms) ease-out none 1
+    var(--delay, 0ms);
+
+  @keyframes cell-ripple {
+    0% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0.4;
+    }
+  }
+}
+
+@layer base {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

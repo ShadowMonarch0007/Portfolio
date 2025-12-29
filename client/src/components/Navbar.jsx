@@ -41,7 +41,7 @@ export default function Navbar() {
     <>
       <div className={`fixed top-4 left-0 z-50 w-full px-4 md:px-7 lg:px-10 transition-all duration-500 ${visible ? "opacity-100 translate-y-0 scale-100" : "opacity-0 -translate-y-10 scale-95 pointer-events-none"}`}>
         <nav className="relative mx-auto max-w-7xl rounded-full px-6 md:px-7 lg:px-8 py-2.5
-            flex items-center border border-white/10 backdrop-blur-xl bg-transparent
+            flex items-center border border-white/10 backdrop-blur-sm bg-transparent
             shadow-[0_8px_40px_rgba(0,0,0,0.75)]
             dark:shadow-[0_0_25px_rgba(255,255,255,0.07)]"
         >
