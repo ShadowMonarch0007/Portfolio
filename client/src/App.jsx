@@ -21,7 +21,7 @@ const App = () => {
         <Toaster position="top-center" reverseOrder={true} />
         <ScrollToTop />
         <Navbar />
-        <div className="pt-24 md:pt-28 lg:pt-32 px-12">
+        <div className="pt-20 md:pt-22 lg:pt-24 px-6 md:px-9 lg:px-12">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
