@@ -12,7 +12,7 @@ const Connect = () => {
           presence to the next level?
         </h1>
       </div>
-      <div className="max-w-4xl w-full mx-auto rounded-2xl p-4 md:p-8 shadow-input backdrop-blur-[2.5px] border-2 border-[#e0e0e0] dark:border-[#202020] my-2.5 md:my-5 lg:my-10">
+      <div className="max-w-4xl w-full mx-auto rounded-2xl p-4 md:p-8 shadow-input backdrop-blur-[2.5px] border border-[#e0e0e0] dark:border-[#202020] my-2.5 md:my-5 lg:my-10">
                 <h2 className="font-bold text-xl lg:text-2xl text-neutral-800 dark:text-neutral-200">
                     Let&apos;s get in touch
                 </h2>
