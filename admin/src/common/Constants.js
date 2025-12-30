@@ -1,8 +1,8 @@
 export const NavItems = [
-    { name: "Home", path: "/" },
+    { name: "Dashboard", path: "/" },
     { name: "About", path: "/about" },
     { name: "Skills", path: "/skills" },
     { name: "Experience", path: "/experience" },
     { name: "Projects", path: "/projects" },
-    { name: "Connect", path: "/connect" },
+    { name: "Message", path: "/message" },
 ]
