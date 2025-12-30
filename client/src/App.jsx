@@ -1,6 +1,6 @@
 import React from "react";
 import { Toaster } from "react-hot-toast";
-import ScrollToTop from "./common/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
